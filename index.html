@@ -10,7 +10,9 @@
 </head>
 <body>
     <div id="app">
-
+        <img :src="picture" :alt='`${firstName} ${lastName}`'>
+        <h1>{{firstName}} {{lastName}}</h1>
+        <h3>Email: {{email}}</h3>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
